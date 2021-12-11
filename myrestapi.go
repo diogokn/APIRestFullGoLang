@@ -17,9 +17,9 @@ var Articles []Article
 
 func allArticles(w http.ResponseWriter, r *http.Request) {
 	articles := Article{
-		Title:   "Medico",
-		Desc:    "teste",
-		Content: "observação",
+		Title:   "Medicos1",
+		Desc:    "teste2",
+		Content: "observação3",
 	}
 
 	fmt.Println("Endpoint Hit: allArticles")
